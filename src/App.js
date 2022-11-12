@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div className="menuDiv">
+      <div className="menuItem">
+        <h1>Mircoservices Project</h1>
+      </div>
+      <div>
+        <a href="https://dry-plains-07186.herokuapp.com/">
+        <button className="btn btn-primary btn-dark btn-lg btnItem">ToDo List</button>
         </a>
-      </header>
+      </div>
+      <div>
+        <a href="https://weather-git-v3-raulochoa21-dev.apps.sandbox.x8i5.p1.openshiftapps.com/">
+          <button className="btn btn-primary btn-dark btn-lg btnItem">Weather</button>
+        </a>
+      </div>
     </div>
   );
 }
