@@ -8,7 +8,7 @@ function App() {
         <h1>Mircoservices Project</h1>
       </div>
       <div>
-        <a href="https://dry-plains-07186.herokuapp.com/">
+        <a href="https://to-do-list-git-v11-raulochoa21-dev.apps.sandbox.x8i5.p1.openshiftapps.com/">
         <button className="btn btn-primary btn-dark btn-lg btnItem">ToDo List</button>
         </a>
       </div>
