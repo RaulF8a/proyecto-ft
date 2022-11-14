@@ -13,7 +13,7 @@ function App() {
         </a>
       </div>
       <div>
-        <a href="https://weather-git-v3-raulochoa21-dev.apps.sandbox.x8i5.p1.openshiftapps.com/">
+        <a href="https://weather-git-v7-raulochoa21-dev.apps.sandbox.x8i5.p1.openshiftapps.com/">
           <button className="btn btn-primary btn-dark btn-lg btnItem">Weather</button>
         </a>
       </div>
