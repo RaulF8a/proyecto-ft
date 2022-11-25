@@ -14,13 +14,25 @@ Antes de comenzar, será necesario contar con una cuenta de OpenShift y tener in
 
 Una vez hecho lo anterior, es posible comenzar con el despliegue. Cada uno de los servicios cuenta con un Dockerfile y estan cargados en un repositorio individual, el cual será empleado para lanzar la aplicacion en OpenShift. Lo realice utilizando la interfaz gráfica de OpenShift.
 
+![alt text](https://github.com/RaulF8a/proyecto-ft/blob/d5a26c1dd90eed04ffa39206ffffc9bdcd368659/img/Img1.png)
+
 Se selecciona el método de despliegue de Dockerfile, escogemos el puerto en el que corre la aplicación, y comenzamos el proceso.
+
+![alt text](https://github.com/RaulF8a/proyecto-ft/blob/d5a26c1dd90eed04ffa39206ffffc9bdcd368659/img/Img2.png)
+![alt text](https://github.com/RaulF8a/proyecto-ft/blob/d5a26c1dd90eed04ffa39206ffffc9bdcd368659/img/Img3.png)
 
 Cuando termina la construcción, el software automaticamente intentara construir un pod de Kubernetes para almacenar la aplicación. Este esta en constante monitoreo, por lo que si en algun momento falla inmediatamente intentara levantarlo de nuevo, volviendo la aplicación **tolerante a fallas**.
 
+![alt text](https://github.com/RaulF8a/proyecto-ft/blob/d5a26c1dd90eed04ffa39206ffffc9bdcd368659/img/Img4.png)
+![alt text](https://github.com/RaulF8a/proyecto-ft/blob/d5a26c1dd90eed04ffa39206ffffc9bdcd368659/img/Img5.png)
+
 El despliegue de las tres aplicaciones se muestra en forma de grafo, con la base de datos fuera del grupo ya que no esta alojada dentro de OpenShift.
 
+![alt text](https://github.com/RaulF8a/proyecto-ft/blob/d5a26c1dd90eed04ffa39206ffffc9bdcd368659/img/Img6.png)
+
 Cada una esta corriendo en un solo pod, pero esto puede ser modificado facilmente gracias a la interfaz.
+
+![alt text](https://github.com/RaulF8a/proyecto-ft/blob/d5a26c1dd90eed04ffa39206ffffc9bdcd368659/img/Img5.png)
 
 Si quisieramos alojar localmente el servicio principal, debemos primero clonar el repositorio a la máquina.
 
@@ -65,6 +77,10 @@ kubectl get ing
 ```
 
 La aplicación es accesible a través del siguiente enlace: https://proyecto-ft-git-v3-raulochoa21-dev.apps.sandbox.x8i5.p1.openshiftapps.com/
+
+Los siguientes enlaces nos llevan a los repositorios de la lista de pendientes y de la aplicación del clima.
+*https://github.com/RaulF8a/ToDo-List
+*https://github.com/RaulF8a/Weather
 
 ## Herramientas Empleadas
 
