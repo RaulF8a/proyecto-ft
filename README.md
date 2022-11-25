@@ -64,6 +64,8 @@ Finalmente, solo queda obtener la IP donde se alojo la aplicación.
 kubectl get ing
 ```
 
+La aplicación es accesible a través del siguiente enlace: https://proyecto-ft-git-v3-raulochoa21-dev.apps.sandbox.x8i5.p1.openshiftapps.com/
+
 ## Herramientas Empleadas
 
 * OpenShift
