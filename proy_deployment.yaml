@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: proyecto-ft
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: proyecto-ft
+  template:
+    metadata:
+      labels:
+        app: proyecto-ft
+    spec:
+      containers:
+      - name: proyecto-ft-container
+        image: proyecto-ft
+        imagePullPolicy: Never
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 3000
+          protocol: TCP

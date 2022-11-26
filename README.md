@@ -79,8 +79,8 @@ kubectl get ing
 La aplicación es accesible a través del siguiente enlace: https://proyecto-ft-git-v3-raulochoa21-dev.apps.sandbox.x8i5.p1.openshiftapps.com/
 
 Los siguientes enlaces nos llevan a los repositorios de la lista de pendientes y de la aplicación del clima.
-*https://github.com/RaulF8a/ToDo-List
-*https://github.com/RaulF8a/Weather
+* https://github.com/RaulF8a/ToDo-List
+* https://github.com/RaulF8a/Weather
 
 ## Herramientas Empleadas
 
@@ -94,4 +94,4 @@ Los siguientes enlaces nos llevan a los repositorios de la lista de pendientes y
 
 ## Diagrama de Arquitectura
 
-//imagen
+![alt text](https://github.com/RaulF8a/proyecto-ft/blob/d5a26c1dd90eed04ffa39206ffffc9bdcd368659/img/img7.png)
