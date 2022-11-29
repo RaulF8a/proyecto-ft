@@ -94,4 +94,4 @@ Los siguientes enlaces nos llevan a los repositorios de la lista de pendientes y
 
 ## Diagrama de Arquitectura
 
-![alt text](https://github.com/RaulF8a/proyecto-ft/blob/d5a26c1dd90eed04ffa39206ffffc9bdcd368659/img/img7.png)
+![alt text](https://github.com/RaulF8a/proyecto-ft/blob/31a1f5799e049cd5c2b61015cdff5b1866c71a97/img/img7.png)
