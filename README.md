@@ -81,6 +81,11 @@ Los siguientes enlaces nos llevan a los repositorios de la lista de pendientes y
 * https://github.com/RaulF8a/ToDo-List
 * https://github.com/RaulF8a/Weather
 
+## Videos de la Aplicación
+* Tolerancia a Fallas con un Solo Pod: https://youtu.be/tIvyimjlr2g
+* Tolerancia a Fallas con Múltiples Pods: https://youtu.be/-G6Jsb8vf34
+* Funcionamiento de la Aplicación: https://youtu.be/5ZRG5tNrbds
+
 ## Herramientas Empleadas
 
 * OpenShift
